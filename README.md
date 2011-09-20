@@ -10,7 +10,7 @@ Android platform to be tested soon!
 
 Build & Use
 -----------
-Each http method in this library is heavily commented. To begin, build Forrst and import it in your code
+Each http method in this library is heavily commented. To begin, build simple-http-request and import it in your code
 
     $ ant
 
