@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="simple-http-request" verbose="5"> 
+  <test name="simple-http-request tests">
+          <groups>
+            <run>
+                <include name="ready"/>
+                <exclude name="skip"/>
+                <exclude name="toBeFixed"/>
+            </run>
+        </groups> 
+        <packages>             
+            <package name="com.simplehttprequest"/>
+        </packages> 
+   </test> 
+ </suite>
